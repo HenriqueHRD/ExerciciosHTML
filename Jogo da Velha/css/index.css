@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#box-game {
+	width: 302px;
+	height: 302px;
+	margin-top: 50px;
+	border: 1px solid black;
+	display: none;
+}
+
+
+.campo:hover {
+	background-color: red;
+}
+
+.btn {
+	padding: 8px;
+	background-color: silver;
+	border: none;
+	min-width: 100px;
+	outline: none;
+}
+
+.campo {
+	width: 100px;
+	height: 100px;
+	border: inherit;
+	float: left;
+	padding: 25px;
+	font-size: 50px;
+}
+
+/*.btn:hover {
+	background-color: #CD0000;
+}*/
